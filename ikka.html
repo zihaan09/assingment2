@@ -1,0 +1,684 @@
+
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+	
+	body {background-color:#d7f2f9;}
+	
+	#header {
+	color:white;
+	position:absolute;
+	top:0px;left:0px;
+	width:100%;
+	height:70px;
+	background-image:
+	linear-gradient(#464646 50%, #3b3b3b 50%);
+	}
+	
+	#tour,#for,#blog {
+	position:absolute;
+	font-family:Segoe UI; 
+	top:0px;left:523px;
+	color:white;
+	text-align:center;
+	height:45px;
+	padding-top:25px;
+	border:0.1px solid #4f4f4f;
+	width:75px;
+	font-size:14px;
+	font-weight:bold;
+	background-image:
+	linear-gradient(#464646 50%, #3b3b3b 50%);
+	text-decoration:none;
+	}
+	
+	#logo {
+	position:absolute;
+	top:2px;left:282px;
+	max-height:63px;
+	}
+	
+	#j > #join {
+	display:block;
+	position:absolute;
+	top:9px;left:1004px;
+	max-height:51px;
+	}
+	
+	#j:hover > #join, #j > #jhover {
+	display:none;
+	}
+
+	#j:hover > #jhover {
+	display:block;
+	position:absolute;
+	top:11px;left:1015px;
+	max-height:46px;
+	}
+	
+	#l > #log {
+	display:block;
+	position:absolute;
+	top:11px;left:1152px;
+	max-height:47px;
+	}
+	
+	#l > #loghover,#l:hover > #log {display:none;}
+	#l:hover > #loghover {
+	display:block;
+	position:absolute;
+	top:13px;left:1152px;
+	max-height:42px;
+	}
+	
+
+
+	
+	#for {
+	top:0px;left:598px;
+	width:120px;
+	}
+	
+	#blog {
+	top:0px;left:718px;
+	}
+	#tour:hover,#for:hover,#blog:hover {
+	background-image:
+	linear-gradient(#3f3f3f 50%, #353535 50%);
+	}
+	
+	#div1 {
+	position:absolute;
+	top:90px;left:305px;
+	background-color:#c2e4f1;
+	height:450px;width:900px;
+	border:.5px solid white;
+	border-radius:10px;
+	background-image:url(Clouds.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+
+	#form > h3 {
+	position:absolute;
+	top:-10px;left:106px;
+	font-family:Helvetica;
+	font-size:150%;
+	}
+
+	#form {
+	position:absolute;
+	top:10px;left:580px;
+	width:310px;
+	height:424px;
+	background-image:
+	linear-gradient(#add133 13.6%, #f2f2f2 13.6%);
+	border:0.5px solid #c3c4c4;
+	border-radius:10px;
+	}
+
+	#face {
+	position:absolute;
+	top:65px;left:15px;
+	max-height:25px;
+	}
+	
+	#google {
+	position:absolute;
+	top:65px;left:168px;
+	max-height:25px;
+	}
+
+	#left {
+	position:absolute;
+	top:27px;left:552px;
+	max-height:53px;
+	}
+
+	#right {
+	position:absolute;
+	top:27px;left:890px;
+	max-height:70px;
+	}
+	
+	#r1 {
+	position:absolute;
+	top:200px;left:885px;
+	}
+	
+	#r2 {
+	position:absolute;
+	top:200px;left:1055px;
+	}
+	
+	#or {
+	position:absolute;
+	top:98px;left:150px;
+	font-size:90%;
+	}
+	
+	#first {
+	position:absolute;
+	top:124px;left:19px;
+	font-size:68%;
+	font-family:Georgia;
+	}
+
+	#fn {
+	position:absolute;
+	top:140px;left:18px;
+	height:26px;
+	width:125px;
+	}
+	
+	#last {
+	position:absolute;
+	top:124px;left:160px;
+	font-size:68%;
+	font-family:Georgia;
+	}
+
+	#ln {
+	position:absolute;
+	top:140px;left:158px;
+	height:26px;
+	width:125px;
+	}
+
+	#email {
+	position:absolute;
+	top:182px;left:19px;
+	font-size:68%;
+	font-family:Georgia;
+	}
+
+	#em {
+	position:absolute;
+	top:198px;left:18px;
+	height:26px;
+	width:175px;
+	}
+
+	#password {
+	position:absolute;
+	top:240px;left:19px;
+	font-size:68%;
+	font-family:Georgia;
+	}
+
+	#pw {
+	position:absolute;
+	top:256px;left:18px;
+	height:26px;
+	width:175px;
+	}
+
+	#check {
+	position:absolute;
+	top:340px;left:15px;
+	font-size:69%;
+	font-family:Helvetica;
+	color:#595959;
+	}
+
+	#drop {
+	position:absolute;
+	top:302px;left:18px;
+	font-size:69%;
+	font-family:Georgia;
+	}
+
+	select {
+	width:144px;
+	height:30px;
+	text-indent:12px;
+	border-radius:5px;
+	border:1px solid #b3b3b3;
+	background-image:
+		linear-gradient(
+		to right, 
+		#f5f5f5 74.9%,black 74.9%, #95bb48 75%
+		);
+	}
+	
+	#agree {
+	position:absolute;
+	top:364px;left:17px;
+	font-size:69%;
+	font-family:Helvetica;
+	color:#595959;
+	}
+
+	#terms {
+	color:#0d6ed3;
+	text-decoration:none;
+	}
+
+	#terms:hover {text-decoration:underline;}
+	#join2 {
+	position:absolute;
+	bottom:12px;right:18px;
+	width:95px;
+	height:28px;
+	border:1.5px solid black;
+	border-radius:10px;
+	padding-top:10px;
+	background-color:#b5e1f5;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	font-family:Helvetica;
+	font-size:13px;
+	}
+
+	#join2:hover {
+	background-color:#bceaff;
+	}
+
+	h1 {
+	position:absolute;
+	top:-10px;left:68px;
+	font-family:YU Gothic;
+	color:#ce2654;
+	font-size:50px;
+	}
+
+	h2 {
+	position:absolute;
+	top:30px;left:165px;
+	font-family:YU Gothic;
+	color:#ce2654;
+	font-size:50px;
+	}
+
+	#all {
+	position:absolute;
+	top:130px;left:67px;
+	font-size:27px;
+	width:450px;
+	line-height:30px;
+	text-align:center;
+	}
+
+	#feed {
+	position:fixed;
+	top:340px;left:0px;
+	max-height:100px;
+	}
+	
+	#div2 {
+	position:absolute;
+	top:560px;left:308px;
+	background-color:white;
+	height:600px;width:900px;
+	border-radius:10px;
+	font-family:Helvetica;
+	}
+
+	#footer {
+	position:absolute;
+	top:1240px;left:0px;
+	height:100px;width:100%;
+	}
+	
+	#try {
+	position:absolute;
+	top:265px;left:135px;
+	text-decoration:none;
+	background-color:#65cbcf;
+	width:145px;
+	height:34px;
+	text-align:center;
+	border:.1px solid black;
+	border-radius:5px;
+	color:white;
+	font-family:Arial;
+	padding-top:17px;
+	font-weight:bold;
+	font-size:95%;
+	}
+	
+	#try:hover {	
+	background-color:#77d0d7;
+	}
+
+	#watch {
+	position:absolute;
+	top:265px;left:300px;
+	text-decoration:none;
+	background-color:#f6fbfc;
+	width:145px;
+	height:34px;
+	text-align:center;
+	border:.1px solid black;
+	border-radius:5px;
+	color:#699acb;
+	font-family:Arial;
+	padding-top:17px;
+	font-weight:bold;
+	font-size:95%;
+	}
+	
+	#watch:hover {
+	background-color:#e9f5f9;
+	}
+	
+	#at {
+	position:absolute;
+	top:11px;left:42px;
+	font-size:24px;
+	color:#ce2654;
+	font-weight:bold;
+	font-family:Segoe UI;
+	font-weight:none;
+	}
+
+	#t1 {
+	position:absolute;
+	top:93px;left:30px;
+	max-height:114px;
+	}
+
+	#grade {
+	position:absolute;	
+	top:94px;left:159px;
+	font-family:Helvetica;
+	font-size:20px;
+	color:black;
+	text-decoration:none;
+	}
+
+	#grade:hover {text-decoration:underline;}
+
+	#p1 {
+	position:absolute;
+	top:102px;left:159px;
+	font-family:Helvetica;
+	width:350px;
+	font-size:16px;
+	line-height:20px;
+	}
+
+	#hr1 {
+	position:absolute;
+	top:211px;left:160px;
+	}
+	
+	#t2 {
+	position:absolute;
+	top:235px;left:38px;
+	max-height:102px;
+	}
+	
+	#lesson {
+	position:absolute;
+	top:246px;left:159px;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	}
+	
+	#lesson:hover {text-decoration:underline;}
+	
+	#p2 {
+	position:absolute;
+	top:254px;left:159px;
+	width:350px;
+	line-height:20px;
+	}
+	
+	#hr2 {
+	position:absolute;
+	top:362px;left:159px;
+	}
+	
+	#t3 {
+	position:absolute;
+	top:403px;left:55px;
+	max-height:93px;
+	}
+
+	#parent {
+	position:absolute;
+	top:396px;left:159px;
+	color:black;
+	text-decoration:none;
+	font-size:20px;
+	}
+
+	#parent:hover {text-decoration:underline;}
+	
+	#p3 {
+	position:absolute;
+	top:403px;left:159px;
+	width:350px;
+	line-height:20px;
+	}
+
+	#hr3 {
+	position:absolute;
+	top:511px;left:159px;
+	}
+
+	#learn1 {
+	position:absolute;
+	top:182px;left:159px;
+	color:#4096e7;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+	#learn1 > img,#learn2 > img,#learn3 > img {display:none;}
+	
+	#learn1:hover > img,#learn2:hover > img,#learn3:hover > img {display:block;
+	position:absolute;
+	top:0px;left:83px;
+	max-height:15px;
+	}
+
+	#learn2 {
+	position:absolute;
+	top:335px;left:159px;
+	color:#4096e7;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+	#learn3 {
+	position:absolute;
+	top:483px;left:159px;
+	color:#4096e7;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+	#ul1 {
+	position:absolute;
+	top:1193px;left:331px;
+	width:900px;
+	font-size:11px;
+	color:#6e99a2;
+	font-family:Helvetica;
+	}
+
+	#ul2 {
+	position:absolute;
+	top:1193px;left:451px;
+	width:900px;
+	font-size:11px;
+	color:#6e99a2;
+	font-family:Helvetica;
+	}
+
+	#ul3 {
+	position:absolute;
+	top:1193px;left:573px;
+	width:900px;
+	font-size:11px;
+	color:#6e99a2;
+	font-family:Helvetica;
+	}
+
+	ul {
+	list-style-type:none;
+	padding:0px;
+	}
+
+	
+	li {padding-bottom:1px;}
+	
+	li > a {
+	color:#6e99a2;
+	text-decoration:none;
+	padding-bottom:1px;
+	}
+	
+	h6 {
+	color:#5e838b;
+	font-family:Helvetica;
+	font-size:11px;
+	}
+
+	#company {
+	position:absolute;
+	top:1155px;left:331px;
+	}	
+
+	#resources {
+	position:absolute;
+	top:1155px;left:451px;
+	}
+
+	#legal {
+	position:absolute;
+	top:1155px;left:573px;
+	}
+	
+	#copy {
+	position:absolute;
+	top:1155px;left:680px;
+	}
+	#foot {
+	position:absolute;
+	top:1203px;left:680px;
+	}
+	#foot > #fbh,#foot:hover > #fb {display:none;}
+	#foot > #fb,#foot:hover > #fbh {
+	display:block;
+	position:absolute;
+	top:0px;left:0px;
+	max-height:22px;
+	}
+
+	
+</style>
+
+</head>
+
+
+<body>
+	
+	<div id="header">
+	<a id="j" href="#"><img id="join" src="Join.png"/><img id="jhover" src="Jhover.png"/></a>
+	<a id="l" href="#"><img id="log" src="Log.png"/><img id="loghover" src="Loghover.png"/></a>
+	</div>
+	
+	<a href="#"><img id="logo" src="logo.png"/></a>
+	<a id="tour" href="#">Tour</a>
+	<a id="for" href="#">For Schools</a>
+	<a id="blog" href="#">Blog</a>
+	
+	<a href="#"><img id="feed" src="Feedback.png"/></a>
+	<div id="div1">
+	
+	<h1>Great classrooms</h1>
+	<h2>start here</h2>
+	<p id="all">All the software you need to manage your classroom and school. <strong>Save time and money</strong> with LearnBoost.</p>
+	<a id="try" href="#">Try our demo</a>
+	<a id="watch" href="#">Watch our video</a>
+	<img id="left" src="Left.png"/>
+	<img id="right" src="Right.png"/>
+	<div id="form">
+	<h3>Sign Up</h3>
+	<a href="#"><img id="face" src="Face.png"/></a>
+	<a href="#"><img id="google" src="Google.png"/></a>
+	<div id="or"><em>or</em></div>
+	<div id="first"><em>First name</em></div>
+	<input id="fn" type="text"/>
+	<div id="last"><em>Last name</em></div>
+	<input id="ln" type="text"/>
+	<div id="email"><em>Email</em></div>
+	<input id="em" type="text"/>
+	<div id="password"><em>Password</em></div>
+	<input id="pw" type="password"/>
+	<form id="check">
+	<input type="checkbox" name="learn" value="learn"/>I want to receive learnboost news.
+	</form>
+	<form id="drop">
+	<em>I am a </em>
+	<select name="designation">
+	<option name="teacher">Teacher</option>
+	<option name="parent">Parent</option>
+	<option name="student">Student</option>
+	<option name="administrator">Administrator</option>
+	</select>
+	</form>
+	<p id="agree">By joining, I agree to the <a id="terms" href="#">Terms</a></p>
+	<a id="join2" href="#">Join</a>
+	</div>
+	</div>
+	<hr id="r1" size="0.5" width="140" color="#c8c8c8">
+	<hr id="r2" size="0.5" width="140" color="#c8c8c8">
+	<div id="div2">
+	<p id="at">At a glance</p>
+	<img id="t1" src="T1.png"/>
+	<a id="grade" href="#">Gradebook</a>
+	<p id="p1">Our beautiful design and wonderful user experience makes you wonder why you've been using other gradebook software.</p>
+	<a id="learn1" href="#">LEARN MORE <img src="arrow.png"/></a>
+	<hr id="hr1" size="0.5" width="355" color="#e5e5e5">
+	<img id="t2" src="T2.png"/>
+	<a id="lesson" href="#">Lesson Plans</a>
+	<p id="p2">With LearnBoost, you can create and manage lesson plans with our fantastic visual editor. Plus it is integrated with state standards.</p>
+	<a id="learn2" href="#">LEARN MORE <img src="arrow.png"/></a>
+	<hr id="hr2" size="0.5" width="355" color="#e5e5e5">
+	<img id="t3" src="T3.png"/>
+	<a id="parent" href="#">Parent & Student</a>
+	<p id="p3">Share student progress with parents and students on LearnBoostâ€™s safe and secure platform.</p>
+	<a id="learn3" href="#">LEARN MORE <img src="arrow.png"/></a>
+	<hr id="hr3" size="0.5" width="355" color="#e5e5e5"/>
+	</div>
+	<h6 id="company">Company</h6>
+	<ul id="ul1">
+	<li><a href="#">About</a></li>
+	<li><a href="#">Feature Tour</a></li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Facebook</a></li>
+	<li><a href="#">Twitter</a></li>
+	<li><a href="#">Edu news</a></li>
+	</ul>
+	<h6 id="resources">Resources</h6>
+	<ul id="ul2">
+	<li><a href="#">Case Studies</a></li>
+	<li><a href="#">CommonCore</a></li>
+	<li><a href="#">Help / FAQ</a></li>
+	<li><a href="#">Press</a></li>
+	<li><a href="#">Security</a></li>
+	<li><a href="#">Schools</a></li>
+	<li><a href="#">Schools List</a></li>
+	</ul>
+	<h6 id="legal">Legal</h6>
+	<ul id="ul3">
+	<li><a href="#">Privacy Policy</a></li>
+	<li><a href="#">Terms of Use</a></li>
+	</ul>
+	<h6 id="copy">Â© 2010 - 2017 LearnBoost, Inc. All rights reserved.</h6>
+	<a id="foot" href="#" title="Like LearnBoost's Page on Facebook"><img id="fb" src="fb.png"/><img id="fbh" src="fbhover.png"/></a>
+	<div id="footer"></div>
+
+</body>
+
+</html>
